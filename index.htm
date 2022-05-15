@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <title>Quote Machine</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col-center">
+    <div class="quotebox flex flex-col-between">
+        <div class="quote-text grow">
+            <i class="fa fa-quote-left text"> </i><span id="text" class="text"></span>
+        </div>
+        <div id="author" class="quote-author"></div>
+        <div class="flex flex-between">
+            <a href="" target="_blank" class="button" id="tweet" onclick="onTweet()"><i class="fab fa-twitter b-icon"></i></a>
+            <a class="button" onclick="updateQuote()">Another Quote</a>
+        </div>
+    </div>
+    <div class="credit">created by <a href="http://williamcazes.com">William Cazes</a></div>
+    <script src="app.js"></script>
+</body>
+</html>
